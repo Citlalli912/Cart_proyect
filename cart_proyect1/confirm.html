@@ -3,9 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <!-- Font Awesome CND -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title> SOFT || SHOP </title>
+    <link rel="stylesheet" href="confirm.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="title">
+            <h4>Selecciona un metodo de <span style="color: #BB0657;">pago</span></h4>
+        </div>
+
+        <form action="#">
+            <input type="radio" name="pago" id="visa">
+            <input type="radio" name="pago" id="mastercard">
+            <input type="radio" name="pago" id="paypal">
+            <input type="radio" name="pago" id="AMEX">
+
+            <div class="category">
+                <label for="visa" class="visaMethod">
+                    <div class="imgName">
+                        <div class="imgContainer visa">
+                            <img src="./img/43ed1d4685a1e776836cf19557cfca73.png" alt="">
+                        </div>
+                        <span class="name">VISA</span>
+                    </div>
+                    <span class="check"><i class="fa-regular fa-circle-check" style="color: #bb0657;"></i></span>
+                </label>
+                <label for="mastercard" class="mastercardMethod">
+                    <div class="imgName">
+                        <div class="imgContainer master">
+                            <img src="./img/Mastercard-Logo.png" alt="">
+                        </div>
+                        <span class="name">Mastercard</span>
+                    </div>
+                    <span class="check"><i class="fa-regular fa-circle-check" style="color: #bb0657;"></i></span>
+                </label> 
+                <label for="paypal" class="paypalMethod">
+                    <div class="imgName">
+                        <div class="imgContainer paypal">
+                            <img src="./img/Paypal_2014_logo.png" alt="">
+                        </div>
+                        <span class="name">PayPal</span>
+                    </div>
+                    <span class="check"><i class="fa-regular fa-circle-check" style="color: #bb0657;"></i></span>
+                </label>
+                <label for="AMEX" class="amexMethod">
+                    <div class="imgName">
+                        <div class="imgContainer AMEX">
+                            <img src="./img/amex.png" alt="">
+                        </div>
+                        <span class="name">AMEX</span>
+                    </div>
+                    <span class="check"><i class="fa-regular fa-circle-check" style="color: #bb0657;"></i></span>
+                </label>
+            </div>
+        </form>
+        <div class="box" style="text-align: center;">
+            <a href="https://mx.pinterest.com/" target="_blank"><button type="submit">Siguiente</button></a> 
+            
+        </div>
+    </div>
 </body>
 </html>
